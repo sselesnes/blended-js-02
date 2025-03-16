@@ -214,5 +214,5 @@ const fruits = [
   { name: "Виноград", price: 440, quantity: 3 },
   { name: "Банан", price: 125, quantity: 3 },
 ];
-console.log(calcTotalPrice(fruits, "Груша"));
-console.log(calcTotalPrice(fruits, "Банан"));
+console.log(calcTotalPrice(fruits, "Груша")); // 700
+console.log(calcTotalPrice(fruits, "Банан")); // 1375
